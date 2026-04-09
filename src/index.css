@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+@theme {
+  /* Brand Colors */
+  --color-primary: #28CB8B;
+  --color-secondary: #263238;
+  --color-info: #2194F3;
+
+  /* Neutrals */
+  --color-black: #263238;
+  --color-d-grey: #4D4D4D;
+  --color-grey: #717171;
+  --color-l-grey: #89939E;
+  --color-grey-blue: #ABBED1;
+  --color-silver: #F5F7FA;
+  --color-white: #FFFFFF;
+
+  /* Font */
+  --font-inter: "Inter", sans-serif;
+}
+
+/* Optional: Set the default font for the whole website */
+body {
+  font-family: var(--font-inter);
+}
