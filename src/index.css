@@ -21,7 +21,21 @@
   --font-inter: "Inter", sans-serif;
 }
 
-/* Optional: Set the default font for the whole website */
+
 body {
   font-family: var(--font-inter);
+}
+
+
+/* Animation for Logos Under Our Clients */
+@layer utilities {
+  .animate-scroll {
+    
+    animation: scroll 25s linear infinite;
+  }
+
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } 
+  }
 }
