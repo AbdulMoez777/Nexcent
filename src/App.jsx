@@ -4,6 +4,7 @@ import HeroSection from './Components/HeroSection'
 import { Clients } from './Components/Clients'
 import Community from './Components/Community'
 import About from './Components/About'
+import Achievements from './Components/Achievements'
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
    <Clients/>
    <Community/>
    <About/>
+   <Achievements/>
    </>
   )
 }
